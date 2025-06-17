@@ -1,0 +1,294 @@
+{
+  "config": {
+    "configFile": "A:\\Automation\\PlaywrightAutomation\\playwright.config.js",
+    "rootDir": "A:/Automation/PlaywrightAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "A:\\Automation\\PlaywrightAutomation\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "A:/Automation/PlaywrightAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "A:/Automation/PlaywrightAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "A:/Automation/PlaywrightAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "A:/Automation/PlaywrightAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "A:/Automation/PlaywrightAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "A:/Automation/PlaywrightAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.52.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "shoppingCart.spec.js",
+      "file": "shoppingCart.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "login shoppingCart add items to cart and place order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5527,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "**** Payment and Shipping Information *****\n"
+                    },
+                    {
+                      "text": "Payment information: SauceCard #31337\n"
+                    },
+                    {
+                      "text": "Shipping Info: Free Pony Express Delivery!\n"
+                    },
+                    {
+                      "text": "Item total: $55.97\n"
+                    },
+                    {
+                      "text": "Tax: $4.48\n"
+                    },
+                    {
+                      "text": "Total: $60.45\n"
+                    },
+                    {
+                      "text": " ********** Thank you for your order!***********\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-17T07:44:47.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "14e8e2dafc54a743ea29-fc5f2e86f9bdeced3e36",
+          "file": "shoppingCart.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "login shoppingCart add items to cart and place order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6117,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "**** Payment and Shipping Information *****\n"
+                    },
+                    {
+                      "text": "Payment information: SauceCard #31337\n"
+                    },
+                    {
+                      "text": "Shipping Info: Free Pony Express Delivery!\n"
+                    },
+                    {
+                      "text": "Item total: $55.97\n"
+                    },
+                    {
+                      "text": "Tax: $4.48\n"
+                    },
+                    {
+                      "text": "Total: $60.45\n"
+                    },
+                    {
+                      "text": " ********** Thank you for your order!***********\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-17T07:44:47.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "14e8e2dafc54a743ea29-fa1dd483ea43b30505e6",
+          "file": "shoppingCart.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "login shoppingCart add items to cart and place order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5767,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "**** Payment and Shipping Information *****\n"
+                    },
+                    {
+                      "text": "Payment information: SauceCard #31337\n"
+                    },
+                    {
+                      "text": "Shipping Info: Free Pony Express Delivery!\n"
+                    },
+                    {
+                      "text": "Item total: $55.97\n"
+                    },
+                    {
+                      "text": "Tax: $4.48\n"
+                    },
+                    {
+                      "text": "Total: $60.45\n"
+                    },
+                    {
+                      "text": " ********** Thank you for your order!***********\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-17T07:44:47.498Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "14e8e2dafc54a743ea29-0c8cb8c990905759a26b",
+          "file": "shoppingCart.spec.js",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-06-17T07:44:46.320Z",
+    "duration": 9652.784,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

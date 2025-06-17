@@ -1,0 +1,7 @@
+**** Payment and Shipping Information *****
+Payment information: SauceCard #31337
+Shipping Info: Free Pony Express Delivery!
+Item total: $55.97
+Tax: $4.48
+Total: $60.45
+ ********** Thank you for your order!***********

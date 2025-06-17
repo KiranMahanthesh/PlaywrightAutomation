@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5767","login shoppingCart add items to cart and place order","webkit","Tue Jun 17 13:14:47 IST 2025","passed","Tue Jun 17 13:14:53 IST 2025","","shoppingCart.spec.js","",""
+"","6117","login shoppingCart add items to cart and place order","firefox","Tue Jun 17 13:14:47 IST 2025","passed","Tue Jun 17 13:14:53 IST 2025","","shoppingCart.spec.js","",""
+"","5527","login shoppingCart add items to cart and place order","chromium","Tue Jun 17 13:14:47 IST 2025","passed","Tue Jun 17 13:14:53 IST 2025","","shoppingCart.spec.js","",""

@@ -1,0 +1,44 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.652784">
+<testsuite name="shoppingCart.spec.js" timestamp="2025-06-17T07:44:46.346Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.527" errors="0">
+<testcase name="login shoppingCart add items to cart and place order" classname="shoppingCart.spec.js" time="5.527">
+<system-out>
+<![CDATA[**** Payment and Shipping Information *****
+Payment information: SauceCard #31337
+Shipping Info: Free Pony Express Delivery!
+Item total: $55.97
+Tax: $4.48
+Total: $60.45
+ ********** Thank you for your order!***********
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="shoppingCart.spec.js" timestamp="2025-06-17T07:44:46.346Z" hostname="firefox" tests="1" failures="0" skipped="0" time="6.117" errors="0">
+<testcase name="login shoppingCart add items to cart and place order" classname="shoppingCart.spec.js" time="6.117">
+<system-out>
+<![CDATA[**** Payment and Shipping Information *****
+Payment information: SauceCard #31337
+Shipping Info: Free Pony Express Delivery!
+Item total: $55.97
+Tax: $4.48
+Total: $60.45
+ ********** Thank you for your order!***********
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="shoppingCart.spec.js" timestamp="2025-06-17T07:44:46.346Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.767" errors="0">
+<testcase name="login shoppingCart add items to cart and place order" classname="shoppingCart.spec.js" time="5.767">
+<system-out>
+<![CDATA[**** Payment and Shipping Information *****
+Payment information: SauceCard #31337
+Shipping Info: Free Pony Express Delivery!
+Item total: $55.97
+Tax: $4.48
+Total: $60.45
+ ********** Thank you for your order!***********
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
