@@ -38,7 +38,7 @@
       [
         "A:\\Automation\\PlaywrightAutomation\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         {
-          "outputFolder": "my-allure-results"
+          "outputFolder": "allure-results"
         }
       ]
     ],
@@ -127,7 +127,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5527,
+                  "duration": 10449,
                   "errors": [],
                   "stdout": [
                     {
@@ -154,7 +154,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-17T07:44:47.563Z",
+                  "startTime": "2025-06-21T15:33:15.190Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -183,7 +183,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 6117,
+                  "duration": 4054,
                   "errors": [],
                   "stdout": [
                     {
@@ -210,7 +210,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-17T07:44:47.511Z",
+                  "startTime": "2025-06-21T15:33:15.257Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -239,7 +239,7 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 5767,
+                  "duration": 5152,
                   "errors": [],
                   "stdout": [
                     {
@@ -266,7 +266,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-17T07:44:47.498Z",
+                  "startTime": "2025-06-21T15:33:15.205Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -284,8 +284,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-17T07:44:46.320Z",
-    "duration": 9652.784,
+    "startTime": "2025-06-21T15:33:13.994Z",
+    "duration": 18591.762000000002,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
